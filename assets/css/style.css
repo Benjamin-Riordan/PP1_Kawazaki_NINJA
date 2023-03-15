@@ -31,6 +31,7 @@
 }
 
 /* postion of the li elemnts to make the line up next to each other and be responsive*/
+/* there is a bug here that needs to be fixed */
 .nav_layout li {
     width: 33%;
     float: left;
