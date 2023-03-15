@@ -1,9 +1,11 @@
+/* over all removal of margins,padding and border */
 * {
     margin: 0px;
     padding: 0px;
     border: 0px;
 }
 
+/* this lays out the size of the header and the postion of the text */
 .header_h1 {
     background-color: limegreen;
     height: 100px;
@@ -12,6 +14,7 @@
     justify-content: center;
 }
 
+/* this is the actualy style of the header */
 .h1_styles {
     text-transform: uppercase;
     color: rgb(0, 0, 0);
@@ -19,6 +22,7 @@
 
 }
 
+/* backrough and sizing of the navigation menu */
 .nav_menu {
     background-color: black;
     width: 100%;
@@ -26,6 +30,7 @@
     overflow: auto;
 }
 
+/* postion of the li elemnts to make the line up next to each other and be responsive*/
 .nav_layout li {
     width: 33%;
     float: left;
@@ -35,16 +40,19 @@
     border-left: 1px solid grey;
 }
 
+/* removing the standerd anchor color */
 a {
     text-decoration: none;
     color: rgb(245, 240, 240);
     text-transform: uppercase;
 }
 
+/* adiding in a hover element so you know which element the user is on */
 .nav_menu li:hover {
     background-color: #696868;
 }
 
+/* adding and active colour to see which page is active */
 .nav_layout a.active {
     color: limegreen;
 }
