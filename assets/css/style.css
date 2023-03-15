@@ -77,66 +77,65 @@ a {
     justify-content: space-between;
     align-items: center;
 
-    }
+}
 
-    #bike125 {
+#bike125 {
         border: 1px solid black;
         width: 100%;
         display: flex;
         justify-content: space-around;
         align-items: center;
 
-    }
+}
 
-    .bike125-info {
+.bike-info {
         display: flex;
         justify-content: space-around;
         align-items: center;
-    }
-
-    .text-info {
+}
+.text-info {
         display: flex;
         justify-content: space-around;
         align-items: center;
-    }
+ }
 
 
-    #bike400 {
+#bike400 {
         border: 1px solid black;
         width: 100%;
         display: flex;
         justify-content: space-around;
         align-items: center;
-    }
+}
 
-    #bike600 {
+#bike600 {
         border: 1px solid black;
         width: 100%;
         display: flex;
         justify-content: space-around;
         align-items: center;
-    }
+}
 
-    #bike1000sx {
+#bike1000sx {
         border: 1px solid black;
         width: 100%;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        }
+ }
 
-        #bikezx-10r {
+#bikezx-10r {
             border: 1px solid black;
             width: 100%;
             display: flex;
             justify-content: space-around;
             align-items: center;
-        }
+ }
 
-        #bikeh2sx {
+ #bikeh2sx {
             border: 1px solid black;
             width: 100%;
             display: flex;
             justify-content: space-around;
             align-items: center;
-    }
+}
