@@ -72,5 +72,71 @@ a {
 #main-cont {
     height: 1200px;
     width: 100%;
-    border: 1px solid black;
-}
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    }
+
+    #bike125 {
+        border: 1px solid black;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .bike125-info {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .text-info {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    #bike400 {
+        border: 1px solid black;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #bike600 {
+        border: 1px solid black;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #bike1000sx {
+        border: 1px solid black;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        }
+
+        #bikezx-10r {
+            border: 1px solid black;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        #bikeh2sx {
+            border: 1px solid black;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+    }
