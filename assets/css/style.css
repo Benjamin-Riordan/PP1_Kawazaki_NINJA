@@ -5,6 +5,12 @@
     border: 0px;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(50, 205, 50, 0.568);
+}
+
 /* this lays out the size of the header and the postion of the text */
 .header_h1 {
     /* background-color: limegreen; */
@@ -56,7 +62,7 @@ a {
 
 /* adding and active colour to see which page is active */
 .nav_layout a.active {
-    color: limegreen;
+    color: rgb(1, 41, 5);
 }
 .hero_image_outer {
     width: 100%;
@@ -69,14 +75,18 @@ a {
     height: 100%;
     width: 100%;
 }
+/* main content */
 #main-cont {
-    height: 1200px;
+    /* height: 100vh; */
     width: 100%;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 
+}
+.main-cont-h2 {
+    font-size: 75px;
 }
 
 #bike125 {
