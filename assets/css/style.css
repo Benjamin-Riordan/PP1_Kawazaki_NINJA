@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.header_h1 {
+    background-color: limegreen;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1_styles {
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-size: 75px;
+
+}
+
+.nav_menu {
+    background-color: black;
+    width: 100%;
+    color: rgb(245, 240, 240);
+    overflow: auto;
+}
+
+.nav_layout li {
+    width: 33%;
+    float: left;
+    list-style: none;
+    text-align: center;
+    padding-top: 2px;
+    border-left: 1px solid grey;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(245, 240, 240);
+    text-transform: uppercase;
+}
+
+.nav_menu li:hover {
+    background-color: #696868;
+}
+
+.nav_layout a.active {
+    color: limegreen;
+}
