@@ -5,6 +5,9 @@
     border: 0px;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@1,300&display=swap');
+/* 'Sofia Sans Extra Condensed',sans-serif; */
+
 /* ***************************************************HEADER************************************************* */
 header {
     position: sticky;
@@ -75,6 +78,7 @@ a {
     width: 100%;
 }
 /* ***************************************************MAIN CONENTEN************************************************* */
+/* the container for the main content */
 #main-cont {
     width: 100%;
     display:flex;
@@ -82,10 +86,16 @@ a {
     justify-content: space-between;
     align-items: center;
 }
-/* the container for the main content */
+/* the h2 for the main content */
 .main-cont-h2 {
-    font-size: 75px;
-}
+    font-size: 50px;
+    font-family:Sofia Sans Extra Condensed,
+    sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: 25px;
+    }
+
 /* this section is about the ninja 125 */
 #bike125 {
         border-bottom: 1px solid black;
@@ -167,8 +177,21 @@ a {
         justify-content: center;
         transition: ease all .5s;
     }
+    .main-cont-h2 {
+        font-size: 40px;
+        line-height: 25px;
+        transition: ease all .5s;
+    }
 
 }
+@media screen and (max-width:900px) {
+    .main-cont-h2 {
+        font-size: 35px;
+        line-height: 25px;
+        transition: ease all .5s;
+    }
+}
+
 @media screen and (max-width:800px) {
     .h1_styles {
         text-transform: uppercase;
@@ -181,6 +204,11 @@ a {
         display: flex;
         align-items: center;
         justify-content: center;
+        transition: ease all .5s;
+    }
+    .main-cont-h2 {
+        font-size: 20px;
+        line-height: 20px;
         transition: ease all .5s;
     }
 }
@@ -205,4 +233,16 @@ a {
         border-right: 1px solid grey;
 
     }
+    .main-cont-h2 {
+        font-size: 15px;
+        line-height: 25px;
+        transition: ease all .5s;
+    }
+    }
+
+    @media screen and (max-width:450px) {
+        .less-than-450 {
+            display: none;
+
+        }
 }
