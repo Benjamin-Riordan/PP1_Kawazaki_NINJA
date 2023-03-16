@@ -5,7 +5,7 @@
     border: 0px;
     box-sizing: border-box;
 }
-
+/* ***************************************************HEADER************************************************* */
 header {
     position: sticky;
     top: 0;
@@ -15,7 +15,6 @@ header {
     .header_nav_font_styling {
         font-family: sans-serif, Arial, Helvetica;
 }
-
 /* this lays out the size of the header and the postion of the text */
 .header_h1 {
     height: 100px;
@@ -23,7 +22,6 @@ header {
     align-items: center;
     justify-content: center;
 }
-
 /* this is the actualy style of the header */
 .h1_styles {
     text-transform: uppercase;
@@ -31,14 +29,12 @@ header {
     font-size: 75px;
 
 }
-
 /* backrough and sizing of the navigation menu */
 .nav_menu {
     width: 100%;
     color: rgb(10, 0, 0);
     overflow: auto;
 }
-
 /* postion of the li elemnts to make the line up next to each other and be responsive*/
 /* there is a bug here that needs to be fixed */
 .nav_layout li {
@@ -67,39 +63,38 @@ a {
 .nav_layout a.active {
     color: rgb(247, 250, 247);
 }
+/* ***************************************************HERO IMAGES************************************************* */
 .hero_image_outer {
     width: 100%;
     height: 100%;
     overflow: hidden;
-
 }
 
 .hero_image_inner {
     height: 100%;
     width: 100%;
 }
-/* main content */
+/* ***************************************************MAIN CONENTEN************************************************* */
 #main-cont {
     width: 100%;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
 }
+/* the container for the main content */
 .main-cont-h2 {
     font-size: 75px;
 }
-
+/* this section is about the ninja 125 */
 #bike125 {
         border-bottom: 1px solid black;
         width: 100%;
         display: flex;
         justify-content: space-around;
         align-items: center;
-
 }
-
+/* this section is about the ninja 400 */
 #bike400 {
     border-bottom: 1px solid black;
     width: 100%;
@@ -107,6 +102,7 @@ a {
         justify-content: space-around;
         align-items: center;
 }
+/* this section is about the ninja 600 */
 #bike600 {
     border-bottom: 1px solid black;
     width: 100%;
@@ -114,7 +110,7 @@ a {
         justify-content: space-around;
         align-items: center;
 }
-
+/* this section is about the ninja 1000sx */
 #bike1000sx {
     border-bottom: 1px solid black;
         width: 100%;
@@ -122,7 +118,7 @@ a {
         justify-content: space-around;
         align-items: center;
  }
-
+/* this section is about the ninja zx-10r */
 #bikezx-10r {
     border-bottom: 1px solid black;
     width: 100%;
@@ -130,7 +126,7 @@ a {
     justify-content: space-around;
     align-items: center;
 }
-
+/* this section is about the ninja h2sx */
  #bikeh2sx {
      border-bottom: 1px solid black;
      width: 100%;
@@ -139,23 +135,24 @@ a {
      align-items: center;
  }
 
+ /* each paragraph in each section above this is a div for loaction*/
 .bike-info {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-
+/* this is the actuly text in each bike section */
 .text-info {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+/* this is the centerd heading for the bike name */
 .bike_name {
     display: inline;
     padding: 15px;
 }
-
-
+/* ***************************************************MEDIA Q************************************************* */
 @media screen and (max-width:1200px) {
     .h1_styles {
         text-transform: uppercase;
@@ -163,7 +160,6 @@ a {
         font-size: 50px;
         transition: ease all .5s;
     }
-
     .header_h1 {
         height: 75px;
         display: flex;
@@ -173,16 +169,13 @@ a {
     }
 
 }
-
 @media screen and (max-width:800px) {
     .h1_styles {
         text-transform: uppercase;
         color: rgb(0, 0, 0);
         font-size: 25px;
         transition: ease all .5s;
-
     }
-
     .header_h1 {
         height: 50px;
         display: flex;
@@ -190,8 +183,6 @@ a {
         justify-content: center;
         transition: ease all .5s;
     }
-
-
 }
 
 @media screen and (max-width:400px) {
@@ -200,9 +191,7 @@ a {
         color: rgb(0, 0, 0);
         font-size: 20px;
         transition: ease all .5s;
-
     }
-
     .header_h1 {
         height: 25px;
         display: flex;
@@ -210,13 +199,10 @@ a {
         justify-content: center;
         transition: ease all .5s;
     }
-
     .nav_layout li {
         float: none;
         width: 100%;
         border-right: 1px solid grey;
 
     }
-
-
 }
