@@ -55,13 +55,13 @@ header {
 
 /* removing the standerd anchor color */
 a {
-    text-decoration: none;
-    color: rgb(8, 8, 8);
-    text-transform: uppercase;
-    display: block;
-    width: 100%;
-    text-align: center;
-}
+     text-decoration: none;
+     color: rgb(8, 8, 8);
+     text-transform: uppercase;
+     display: block;
+     width: 100%;
+     text-align: center;
+     }
 
 /* adiding in a hover element so you know which element the user is on */
 .nav_menu li:hover {
