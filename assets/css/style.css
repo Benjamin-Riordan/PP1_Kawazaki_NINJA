@@ -186,6 +186,12 @@ a {
     text-transform: uppercase;
     text-align: center;
 }
+#read_me_style {
+    text-decoration: none;
+    color: white;
+    display: inline;
+}
+
 /* the contact us section which is center based */
 .footer-contact-us {
     width: 33.33%;
