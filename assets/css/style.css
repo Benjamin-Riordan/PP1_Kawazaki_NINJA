@@ -98,35 +98,37 @@ a {
 
 /* this section is about the ninja 125 */
 #bike125 {
-        border-bottom: 1px solid black;
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: limegreen; */
 }
 /* this section is about the ninja 400 */
 #bike400 {
     border-bottom: 1px solid black;
     width: 100%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: aqua; */
 }
 /* this section is about the ninja 600 */
 #bike600 {
     border-bottom: 1px solid black;
     width: 100%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 /* this section is about the ninja 1000sx */
 #bike1000sx {
     border-bottom: 1px solid black;
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
  }
 /* this section is about the ninja zx-10r */
 #bikezx-10r {
@@ -161,6 +163,9 @@ a {
 .bike_name {
     display: inline;
     padding: 15px;
+    font-family:sans-serif,
+    Arial,
+    Helvetica;
 }
 /* ***************************************************MEDIA Q************************************************* */
 @media screen and (max-width:1200px) {
