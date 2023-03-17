@@ -4,6 +4,9 @@
     padding: 0px;
     border: 0px;
     box-sizing: border-box;
+    font-family: sans-serif,
+    Arial,
+    Helvetica;
 }
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@1,300&display=swap');
 /* 'Sofia Sans Extra Condensed',sans-serif; */
@@ -150,14 +153,10 @@ a {
  /* each paragraph in each section above this is a div for loaction*/
 .bike-info {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
 }
-/* this is the actuly text in each bike section */
-.text-info {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.bike-info ul {
+    list-style-type: none;
 }
 /* this is the centerd heading for the bike name */
 .bike_name {
@@ -166,6 +165,22 @@ a {
     font-family:sans-serif,
     Arial,
     Helvetica;
+}
+/* styling for the h3 for each bike inside mian content */
+.bike-heading-main-cont {
+    padding-bottom: 1px;
+    font-family: sans-serif, Arial, Helvetica;
+    font-weight: bold;
+    border-bottom: 2px solid greenyellow;
+
+}
+
+/* ul conent headers  */
+.facts-ul-title {
+    font-family: sans-serif, Arial, Helvetica;
+    font-weight: bold;
+    text-transform: uppercase;
+
 }
 /* ***************************************************MEDIA Q************************************************* */
 @media screen and (max-width:1200px) {
