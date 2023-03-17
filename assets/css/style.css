@@ -236,8 +236,14 @@ a {
 }
 
 @media screen and (max-width:600px) {
-    #bike125 {
+    #bike125,
+    #bike400,
+    #bike600,
+    #bike1000sx,
+    #bikezx-10r,
+    #bikeh2sx {
         flex-direction: column;
+
     }
 
 
