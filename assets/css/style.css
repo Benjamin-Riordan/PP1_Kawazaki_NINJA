@@ -207,6 +207,16 @@ a {
         line-height: 25px;
         transition: ease all .5s;
     }
+    #bike125,
+    #bike400,
+    #bike600,
+    #bike1000sx,
+    #bikezx-10r,
+    #bikeh2sx {
+        flex-direction: center;
+
+
+    }
 
 }
 @media screen and (max-width:900px) {
