@@ -180,6 +180,12 @@ a {
     text-transform: capitalize;
 }
 
+.footer-copy-right p {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .footer-contact-us {
     border: 1px solid white;
     width: 33.33%;
