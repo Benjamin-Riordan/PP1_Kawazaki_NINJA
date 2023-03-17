@@ -177,6 +177,7 @@ a {
 
 .footer-copy-right h3 {
     color: white;
+    text-transform: capitalize;
 }
 
 .footer-contact-us {
