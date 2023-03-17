@@ -58,6 +58,8 @@ a {
     text-decoration: none;
     color: rgb(8, 8, 8);
     text-transform: uppercase;
+    display: block;
+    width: 100%;
 }
 
 /* adiding in a hover element so you know which element the user is on */
@@ -231,6 +233,14 @@ a {
         line-height: 20px;
         transition: ease all .5s;
     }
+}
+
+@media screen and (max-width:600px) {
+    #bike125 {
+        flex-direction: column;
+    }
+
+
 }
 
 @media screen and (max-width:400px) {
