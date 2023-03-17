@@ -60,6 +60,7 @@ a {
     text-transform: uppercase;
     display: block;
     width: 100%;
+    text-align: center;
 }
 
 /* adiding in a hover element so you know which element the user is on */
@@ -100,60 +101,29 @@ a {
     text-transform: uppercase;
     line-height: 25px;
     }
-
-/* this section is about the ninja 125 */
-#bike125 {
-    border-bottom: 1px solid black;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    /* background-color: limegreen; */
-}
-/* this section is about the ninja 400 */
-#bike400 {
-    border-bottom: 1px solid black;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row-reverse;
-    /* background-color: aqua; */
-}
-/* this section is about the ninja 600 */
-#bike600 {
-    border-bottom: 1px solid black;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-/* this section is about the ninja 1000sx */
-#bike1000sx {
-    border-bottom: 1px solid black;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row-reverse;
- }
-/* this section is about the ninja zx-10r */
+/* all bikes that are image left text right */
+#bike125,
+#bike600,
 #bikezx-10r {
     border-bottom: 1px solid black;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-align: left;
 }
-/* this section is about the ninja h2sx */
- #bikeh2sx {
-     border-bottom: 1px solid black;
-     width: 100%;
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     flex-direction: row-reverse;
- }
+/* all bikes that are image left and text right */
+#bike400,
+#bike1000sx,
+#bikeh2sx {
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    text-align: left;
+}
 
  /* each paragraph in each section above this is a div for loaction*/
 .bike-info {
