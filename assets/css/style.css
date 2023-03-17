@@ -157,6 +157,32 @@ a {
     text-transform: uppercase;
 
 }
+.footer-container {
+    height: 250px;
+    width: 100%;
+    background-color: rgb(50, 205, 50);
+    display: flex;
+
+}
+
+.footer-contact-us {
+    border: 1px solid white;
+    width: 33.33%;
+    height: 100%;
+}
+
+.footer-copy-right {
+    border: 1px solid white;
+    width: 33.33%;
+    height: 100%;
+}
+
+.footer-created-by {
+    border: 1px solid white;
+    width: 33.33%;
+    height: 100%;
+}
+
 /* ***************************************************MEDIA Q************************************************* */
 @media screen and (max-width:1200px) {
     .h1_styles {
