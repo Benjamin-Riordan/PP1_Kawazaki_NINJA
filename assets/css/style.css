@@ -166,7 +166,7 @@ a {
     display: flex;
 
 }
-/* the copy right section which is based on the right hand side */
+/* the copy right section which is based on the left hand side */
 .footer-copy-right {
     width: 33.33%;
     height: 100%;
@@ -194,40 +194,40 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    }
+}
 
-    .footer-contact-us h3 {
-        color: white;
-        text-transform: uppercase;
-        text-align: center;
-    }
+.footer-contact-us h3 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
 
-    .footer-contact-us a {
-        color: white;
-        text-transform: uppercase;
-        list-style-type: none;
-        padding-top: 2px;
-    }
+.footer-contact-us a {
+    color: white;
+    text-transform: uppercase;
+    list-style-type: none;
+    padding-top: 2px;
+}
 
-    .footer-contact-us>ul {
-        color: white;
-        text-transform: uppercase;
-        list-style-type: none;
-        text-align: center;
-    }
+.footer-contact-us>ul {
+    color: white;
+    text-transform: uppercase;
+    list-style-type: none;
+    text-align: center;
+}
 
-    .font-awesome-social {
-        font-family: 'Font Awesome 6 Free';
-        margin: 15px;
-        display: flex;
-        font-size: 50px;
-        flex-direction: row;
-        justify-content: space-evenly;
-        list-style: none;
+.font-awesome-social {
+    font-family: 'Font Awesome 6 Free';
+    margin: 15px;
+    display: flex;
+    font-size: 50px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
 }
 
 
-
+/* the created by section which is right based*/
 .footer-created-by {
     border: 1px solid white;
     width: 33.33%;
