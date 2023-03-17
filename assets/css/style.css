@@ -157,6 +157,8 @@ a {
     text-transform: uppercase;
 
 }
+/*****************************************************footer**************************************************/
+/* the size of the div for the main footer container */
 .footer-container {
     height: 250px;
     width: 100%;
@@ -164,9 +166,8 @@ a {
     display: flex;
 
 }
-
+/* the copy right section which is based on the right hand side */
 .footer-copy-right {
-    border: 1px solid white;
     width: 33.33%;
     height: 100%;
     display: flex;
@@ -185,12 +186,44 @@ a {
     text-transform: uppercase;
     text-align: center;
 }
-
+/* the contact us section which is center based */
 .footer-contact-us {
-    border: 1px solid white;
     width: 33.33%;
     height: 100%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .footer-contact-us h3 {
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .footer-contact-us a {
+        color: white;
+        text-transform: uppercase;
+        list-style-type: none;
+        padding-top: 2px;
+    }
+
+    .footer-contact-us>ul {
+        color: white;
+        text-transform: uppercase;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    .font-awesome-social {
+        font-family: 'Font Awesome 6 Free';
+        margin: 15px;
+        display: flex;
+        font-size: 50px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style: none;
 }
 
 
@@ -203,6 +236,20 @@ a {
 }
 
 /* ***************************************************MEDIA Q************************************************* */
+@media screen and (min-width:1200px) {
+
+    #bike125,
+    #bike400,
+    #bike600,
+    #bike1000sx,
+    #bikezx-10r,
+    #bikeh2sx {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
 @media screen and (max-width:1200px) {
     .h1_styles {
         text-transform: uppercase;
@@ -221,16 +268,6 @@ a {
         font-size: 40px;
         line-height: 25px;
         transition: ease all .5s;
-    }
-    #bike125,
-    #bike400,
-    #bike600,
-    #bike1000sx,
-    #bikezx-10r,
-    #bikeh2sx {
-        flex-direction: center;
-
-
     }
 
 }
@@ -261,6 +298,24 @@ a {
         line-height: 20px;
         transition: ease all .5s;
     }
+    .footer-container {
+        height: 100%;
+        width: 100%;
+        background-color: rgb(50, 205, 50);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .footer-copy-right,
+    .footer-contact-us,
+    .footer-created-by {
+        width: 100%;
+        padding-top: 25px;
+
+    }
+
 }
 
 @media screen and (max-width:600px) {
