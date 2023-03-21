@@ -52,14 +52,14 @@ The planning and development of this project is divided into 5 planes:
 
 ## **Scope Plane**
 
-
+---
 
 ## **Structure Plane**
 
-
+---
 
 ### **Skeleton**
-
+---
 Wireframe
 
 
@@ -70,47 +70,29 @@ Wireframe
 
 ### Design
 
-
+---
 
 ### Typography
 
-
+---
 
 ### Colour Scheme
 
-
+---
 
 ## **Features**
 
 
-
+---
 
 ### Home page
 
-- 
+### Meet the creator
 
-
-
-### Path to Tech
-
-- 
-
-### Interviews
-
-- 
-
-### External Resources
-
-- 
-
-### Meet the team
-
-- 
-
+-
 ### Features to be implemented in the future
 
-- 
-
+-
 ## **Technologies**
 
 ---
@@ -139,20 +121,18 @@ Wireframe
 
 #### HTML
 
--   All HTML code was tested and validated with W3C Markup Checker.
+-  
 
 
 #### CSS
 
--   All CSS code was tested and validated with W3C CSS Validation Service.
+- 
 -   
 
 
 ### Link Testing
 
--   All the external links in the page will open in a new tab implementing 'target="\_blank"' and have been manually tested to confirm that they will direct to the correct destination.
--   All the internal site links will navigate to the right path and have been manually tested to confirm they will direct user to expected page.
--   
+
 
 
 ## **Deployment**
