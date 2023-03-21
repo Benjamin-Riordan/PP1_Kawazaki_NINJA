@@ -52,46 +52,11 @@ The planning and development of this project is divided into 5 planes:
 
 ## **Scope Plane**
 
--   
 
--   
-
--   
-
--   
-
--   
-
--   
 
 ## **Structure Plane**
 
----
 
-1. Home
-
-    - 
-
-    - 
-
-    - 
-
-    - .
-
-2. Roadmap
-
-    - 
-
-3. Interview Preparation
-
-    - 
-
-4. External Resources
-
-    - 
-
-5. Dev Team
-    - 
 
 ### **Skeleton**
 
