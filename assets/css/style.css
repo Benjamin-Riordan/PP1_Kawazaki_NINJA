@@ -43,6 +43,11 @@ header {
 }
 /* postion of the li elemnts to make the line up next to each other and be responsive*/
 /* there is a bug here that needs to be fixed */
+.nav_layout {
+    width: 50%;
+    margin: 0 auto;
+}
+
 .nav_layout li {
     width: 33.33%;
     float: left;
@@ -50,18 +55,18 @@ header {
     text-align: center;
     padding-top: 2px;
     border-left: 1px solid grey;
+    border-right:1px solid grey;
     line-height: 20px;
 }
 
 /* removing the standerd anchor color */
 a {
-     text-decoration: none;
-     color: rgb(8, 8, 8);
-     text-transform: uppercase;
-     display: block;
-     width: 100%;
-     text-align: center;
-     }
+    text-decoration: underline;
+    color: rgb(50, 205, 50);
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+ }
 
 /* adiding in a hover element so you know which element the user is on */
 .nav_menu li:hover {
@@ -235,10 +240,23 @@ a {
 
 /* the created by section which is right based*/
 .footer-created-by {
-    border: 1px solid white;
     width: 33.33%;
     height: 100%;
     display: flex;
+}
+
+.footer-created-by {
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-created-by h3 {
+    color: white;
+    text-transform: capitalize;
 }
 
 /* ***************************************************MEDIA Q************************************************* */
