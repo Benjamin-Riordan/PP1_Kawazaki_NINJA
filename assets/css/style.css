@@ -295,6 +295,81 @@ a {
     background-size: cover;
 }
 
+.h1-sign-up {
+    display: flex;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: white;
+    height: auto;
+    justify-content: center;
+    padding: 25px;
+
+}
+
+.sign-news-outer {
+    padding: 25px;
+    display: flex;
+
+}
+
+
+.newsletter-ex {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.sign-up-form-form {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    background-color: rgba(12, 14, 12, 0.521);
+    padding: 25px;
+    color: white;
+}
+
+.form-text {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+
+}
+
+
+#motorbike {
+    line-height: 50px;
+}
+
+fieldset {
+    margin-top: 25px;
+    padding: 5px;
+    border: 5px solid limegreen;
+    border-radius: 25px;
+}
+
+.add-info {
+    line-height: 50px;
+    text-decoration: underline;
+}
+
+.submit-btn {
+    background: limegreen;
+    color: white;
+    border-style: outset;
+    border-color: limegreen;
+    height: 50px;
+    width: 100px;
+    font: bold15px arial,
+        sans-serif;
+    text-shadow: none;
+}
+
 
 /* ***************************************************MEDIA Q************************************************* */
 

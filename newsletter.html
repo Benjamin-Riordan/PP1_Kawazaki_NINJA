@@ -27,23 +27,52 @@
             </div>
         </header>
         <section class="sign-up-form">
-            <div class="sign-up-form-h1">
-                <h1>sing up to our Newsletter</h1>
-            </div>
+                <h1 class="h1-sign-up">sign up to our Newsletter</h1>
+                <div class="sign-news-outer">
             <div class="newsletter-ex">
-                sample newletter
+                <img src="assets/images/4404592-kawasaki-news-thankful-for-new.jpg"
+                    alt="a sample news letter for this site"></img>
             </div>
             <div class="sign-up-form-form">
-                <form>
-                    sign up <form action=""></form>
-                </form>
+                 <form action="#" method="post" class="form-style">
+                     <label for="first-name">First Name:</label>
+                     <input class="form-text" type="text" id="first-name" name="first-name" required>
+
+                     <label for="last-name">Last Name:</label>
+                     <input class="form-text" type="text" id="last-name" name="last-name" required>
+
+                     <label for="email">Email:</label>
+                     <input class="form-text" type="email" id="email" name="email" required>
+                     <label for="motorbike">What kind of motorbike do you ride?</label>
+                     <select id="motorbike" name="motorbike" required>
+                         <option value="kawasaki">kawasaki</option>
+                         <option value="suzuki">Suzuki</option>
+                         <option value="honda">Honda</option>
+                         <option value="yamaha">Yamaha</option>
+                     </select>
+
+                     <fieldset>
+                         <legend>Type of Newsletter You Want:</legend>
+                         <label><input type="radio" name="newsletter" value="weekly" required> Weekly</label>
+                         <label><input type="radio" name="newsletter" value="monthly" required> Monthly</label>
+                         <label><input type="radio" name="newsletter" value="special-offers" required> Special
+                             Offers</label>
+                     </fieldset>
+
+                     <label class="add-info"><input type="checkbox" name="additional-info" value="yes"> Can we send you
+                         additional information?</label>
+                     <br>
+                     <label class="add-info"><input type="checkbox" name="third-party" value="yes"> Can we send your
+                         information
+                         to our 3rd party supplier?</label>
+                     <br>
+
+                     <input class="submit-btn" type="submit" value="Submit">
+                     </form>
+                     </form>
+
             </div>
-
-
-
-
-
-
+            </div>
         </section>
 
             <!-- page end with nav links -->
