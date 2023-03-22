@@ -40,6 +40,7 @@ header {
     width: 100%;
     color: rgb(10, 0, 0);
     overflow: auto;
+    background-color: black;
 }
 /* postion of the li elemnts to make the line up next to each other and be responsive*/
 /* there is a bug here that needs to be fixed */
@@ -61,7 +62,7 @@ header {
 
 /* removing the standerd anchor color */
 a {
-    text-decoration: underline;
+    text-decoration: none;
     color: rgb(50, 205, 50);
     text-transform: uppercase;
     display: block;
@@ -117,7 +118,7 @@ a {
     align-items: center;
     text-align: left;
 }
-/* all bikes that are image left and text right */
+ /* all bikes that are image left and text right */
 #bike400,
 #bike1000sx,
 #bikeh2sx {
@@ -128,6 +129,16 @@ a {
     align-items: center;
     flex-direction: row-reverse;
     text-align: left;
+}
+
+#bike125,
+#bike400,
+#bike600,
+#bike1000sx,
+#bikezx-10r,
+#bikeh2sx {
+    display: flex;
+    justify-content: center;
 }
 
  /* each paragraph in each section above this is a div for loaction*/
@@ -260,7 +271,7 @@ a {
 }
 
 /* ***************************************************MEDIA Q************************************************* */
-@media screen and (min-width:1200px) {
+/* @media screen and (min-width:1200px) {
 
     #bike125,
     #bike400,
@@ -273,6 +284,8 @@ a {
     }
 
 }
+
+*/
 
 @media screen and (max-width:1200px) {
     .h1_styles {
@@ -356,6 +369,8 @@ a {
 
 
 }
+
+
 
 @media screen and (max-width:400px) {
     .h1_styles {
