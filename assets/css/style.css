@@ -277,29 +277,26 @@ a {
     align-items: center;
     flex-direction: column;
 }
-
+/* ***************************************************page 2 ************************************************* */
+/* ***************************************************video container ************************************************* */
 
 .video_container h1 {
     align-items: center;
     flex-direction: column;
 }
 
-/* ***************************************************MEDIA Q************************************************* */
-/* @media screen and (min-width:1200px) {
-
-    #bike125,
-    #bike400,
-    #bike600,
-    #bike1000sx,
-    #bikezx-10r,
-    #bikeh2sx {
-        display: flex;
-        justify-content: center;
-    }
-
+/* ***************************************************page 3 ************************************************* */
+/* ***************************************************sign-up area ************************************************* */
+.sign-up-form {
+    background-image: url("/assets/images/night-bike.jpg");
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-*/
+
+/* ***************************************************MEDIA Q************************************************* */
 
 @media screen and (max-width:1200px) {
     .h1_styles {
