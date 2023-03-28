@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@1,300&display=swap');
+/* 'Sofia Sans Extra Condensed',sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
+/* font-family: 'The Nautigal',cursive; */
+
 /* over all removal of margins,padding and border */
 * {
     margin: 0px;
@@ -8,10 +13,6 @@
     Arial,
     Helvetica;
 }
-@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@1,300&display=swap');
-/* 'Sofia Sans Extra Condensed',sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
-/* font-family: 'The Nautigal',cursive; */
 /* ***************************************************HEADER************************************************* */
 header {
     position: sticky;
@@ -100,8 +101,6 @@ a:hover {
 /* the h2 for the main content */
 .main-cont-h2 {
     font-size: 50px;
-    font-family:Sofia Sans Extra Condensed,
-    sans-serif;
     font-style: italic;
     text-transform: uppercase;
     line-height: 25px;
@@ -274,11 +273,12 @@ iframe {
 }
 /* page 2 paragraph */
 .page2_p {
-    font-family: The Nautigal, cursive;
+    font-family: "The Nautigal",
+    "cursive";
     text-align: center;
-    font-size: 2rem;
-    font-style: italic;
+    font-size: 3rem;
     padding: 20px;
+    letter-spacing: .1rem;
 }
 /* ***************************************************page 3 ************************************************* */
 /* ***************************************************sign-up area ************************************************* */
@@ -289,7 +289,7 @@ iframe {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.h1-sign-up {
+.h2-sign-up {
     display: flex;
     margin: 0 auto;
     text-transform: uppercase;
@@ -339,9 +339,6 @@ fieldset {
     color: white;
     height: 50px;
     width: 100px;
-    font: bold15px arial,
-        sans-serif;
-    text-shadow: none;
 }
 .submit-btn:hover {
     font-size: 25px;
