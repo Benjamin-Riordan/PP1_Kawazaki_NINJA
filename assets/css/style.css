@@ -15,11 +15,13 @@
 header {
     position: sticky;
     top: 0;
-    background-color: rgb(50, 205, 50);
+    background-color: rgb(0, 0, 0);
     }
 
-    .header_nav_font_styling {
+ header .header_nav_font_styling {
         font-family: sans-serif, Arial, Helvetica;
+        color: white;
+        text-decoration: none;
 }
 /* this lays out the size of the header and the postion of the text */
 .header_h1 {
@@ -31,7 +33,7 @@ header {
 /* this is the actualy style of the header */
 .h1_styles {
     text-transform: uppercase;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 75px;
 
 }
@@ -60,12 +62,16 @@ header {
 
 /* removing the standerd anchor color */
 a {
-    text-decoration: none;
-    color: rgb(50, 205, 50);
+    text-decoration:underline;
+    color: rgb(5, 5, 5);
     text-transform: uppercase;
     display: block;
     width: 100%;
  }
+
+a:hover {
+    font-size: 1.2em;
+}
 
 /* adiding in a hover element so you know which element the user is on */
 .nav_menu li:hover {
@@ -176,7 +182,7 @@ a {
 .footer-container {
     height: 250px;
     width: 100%;
-    background-color: rgb(50, 205, 50);
+    background-color: rgb(0, 0, 0);
     display: flex;
 
 }
