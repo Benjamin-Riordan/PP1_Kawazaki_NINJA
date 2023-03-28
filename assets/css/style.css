@@ -233,6 +233,12 @@ a:hover {
     justify-content: space-evenly;
     list-style: none;
 }
+#github_link {
+    font-family: 'Font Awesome 6 Free';
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+}
 /* the created by section which is right based*/
 .footer-created-by {
     width: 33.33%;
@@ -250,6 +256,13 @@ a:hover {
 .footer-created-by h3 {
     color: white;
     text-transform: capitalize;
+}
+.footer-created-by a {
+    color: white;
+    text-transform: uppercase;
+    list-style-type: none;
+    padding-top: 2px;
+    text-align: center;
 }
 /* ***************************************************page 2 ************************************************* */
 /* ***************************************************video container ************************************************* */
