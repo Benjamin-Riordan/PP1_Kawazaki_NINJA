@@ -12,7 +12,6 @@
 /* 'Sofia Sans Extra Condensed',sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
 /* font-family: 'The Nautigal',cursive; */
-
 /* ***************************************************HEADER************************************************* */
 header {
     position: sticky;
@@ -37,7 +36,6 @@ header {
     text-transform: uppercase;
     color: rgb(255, 255, 255);
     font-size: 75px;
-
 }
 /* backrough and sizing of the navigation menu */
 .nav_menu {
@@ -53,7 +51,6 @@ header {
     width: 50%;
     margin: 0 auto;
 }
-
 .nav_layout li {
     width: 33.33%;
     float: left;
@@ -62,7 +59,6 @@ header {
     padding-top: 2px;
     line-height: 20px;
 }
-
 /* removing the standerd anchor color */
 a {
     text-decoration:underline;
@@ -71,16 +67,13 @@ a {
     display: block;
     width: 100%;
  }
-
 a:hover {
     font-size: 1.2em;
 }
-
 /* adiding in a hover element so you know which element the user is on */
 .nav_menu li:hover {
     background-color: #f5f5f563;
 }
-
 /* adding and active colour to see which page is active */
 .nav_layout a.active {
     color: rgb(247, 250, 247);
@@ -91,7 +84,6 @@ a:hover {
     height: 100%;
     overflow: hidden;
 }
-
 .hero_image_inner {
     height: 100%;
     width: 100%;
@@ -137,7 +129,6 @@ a:hover {
     flex-direction: row-reverse;
     text-align: left;
 }
-
 #bike125,
 #bike400,
 #bike600,
@@ -147,7 +138,6 @@ a:hover {
     display: flex;
     justify-content: center;
 }
-
  /* each paragraph in each section above this is a div for loaction*/
 .bike-info {
     display: flex;
@@ -170,15 +160,12 @@ a:hover {
     font-family: sans-serif, Arial, Helvetica;
     font-weight: bold;
     border-bottom: 2px solid greenyellow;
-
 }
-
 /* ul conent headers  */
 .facts-ul-title {
     font-family: sans-serif, Arial, Helvetica;
     font-weight: bold;
     text-transform: uppercase;
-
 }
 /*****************************************************footer**************************************************/
 /* the size of the div for the main footer container */
@@ -187,7 +174,6 @@ a:hover {
     width: 100%;
     background-color: rgb(12, 12, 12);
     display: flex;
-
 }
 /* the copy right section which is based on the left hand side */
 .footer-copy-right {
@@ -198,13 +184,11 @@ a:hover {
     justify-content: space-evenly;
     align-items: center;
 }
-
 .footer-copy-right h3 {
     color: white;
     text-transform: capitalize;
     text-align: center;
 }
-
 .footer-copy-right p {
     color: white;
     text-transform: uppercase;
@@ -215,7 +199,6 @@ a:hover {
     color: white;
     display: inline;
 }
-
 /* the contact us section which is center based */
 .footer-contact-us {
     width: 33.33%;
@@ -225,27 +208,23 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
-
 .footer-contact-us h3 {
     color: white;
     text-transform: uppercase;
     text-align: center;
 }
-
 .footer-contact-us a {
     color: white;
     text-transform: uppercase;
     list-style-type: none;
     padding-top: 2px;
 }
-
 .footer-contact-us>ul {
     color: white;
     text-transform: uppercase;
     list-style-type: none;
     text-align: center;
 }
-
 .font-awesome-social {
     font-family: 'Font Awesome 6 Free';
     margin: 15px;
@@ -255,15 +234,12 @@ a:hover {
     justify-content: space-evenly;
     list-style: none;
 }
-
-
 /* the created by section which is right based*/
 .footer-created-by {
     width: 33.33%;
     height: 100%;
     display: flex;
 }
-
 .footer-created-by {
     width: 33.33%;
     height: 100%;
@@ -272,12 +248,10 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
-
 .footer-created-by h3 {
     color: white;
     text-transform: capitalize;
 }
-
 .video_container {
     height: 600px;
     display: flex;
@@ -288,11 +262,11 @@ a:hover {
 }
 /* ***************************************************page 2 ************************************************* */
 /* ***************************************************video container ************************************************* */
-
 .video_container h1 {
     align-items: center;
     flex-direction: column;
 }
+/* page 2 paragraph */
 .page2_p {
     font-family: The Nautigal, cursive;
     text-align: center;
@@ -300,7 +274,6 @@ a:hover {
     font-style: italic;
     padding: 20px;
 }
-
 /* ***************************************************page 3 ************************************************* */
 /* ***************************************************sign-up area ************************************************* */
 .sign-up-form {
@@ -310,7 +283,6 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .h1-sign-up {
     display: flex;
     margin: 0 auto;
@@ -319,9 +291,7 @@ a:hover {
     height: auto;
     justify-content: center;
     padding: 25px;
-
 }
-
 .sign-news-outer {
     padding: 25px;
     display: flex;
@@ -336,7 +306,6 @@ a:hover {
     padding: 25px;
     color: white;
 }
-
 .form-text {
     background: transparent;
     color: #fafafa;
@@ -345,26 +314,20 @@ a:hover {
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
-
 }
-
-
 #motorbike {
     line-height: 50px;
 }
-
 fieldset {
     margin-top: 25px;
     padding: 5px;
     border: 5px solid limegreen;
     border-radius: 25px;
 }
-
 .add-info {
     line-height: 50px;
     text-decoration: underline;
 }
-
 .submit-btn {
     background: rgb(8, 8, 8);
     color: white;
@@ -374,21 +337,16 @@ fieldset {
         sans-serif;
     text-shadow: none;
 }
-
 .submit-btn:hover {
     font-size: 25px;
 }
-
-
 /* ***************************************************MEDIA Q************************************************* */
-
 @media screen and (min-width:1200px) {
     .sign-up-form-form {
         max-width: 575px;
     }
 
 }
-
 @media screen and (max-width:1200px) {
     .h1_styles {
         text-transform: uppercase;
@@ -417,7 +375,6 @@ fieldset {
         transition: ease all .5s;
     }
 }
-
 @media screen and (max-width:800px) {
     .h1_styles {
         text-transform: uppercase;
@@ -444,9 +401,7 @@ fieldset {
         display: flex;
         flex-direction: column;
         align-items: center;
-
     }
-
     .footer-copy-right,
     .footer-contact-us,
     .footer-created-by {
@@ -454,21 +409,17 @@ fieldset {
         padding-top: 25px;
 
     }
-
     .sign-news-outer {
         justify-content: center;
         align-items: center;
     }
-
     .newsletter_img {
         display: none;
     }
-
     .sign-up-form-form {
         max-width: 575px;
         width: 100%;
     }
-
 }
 
 @media screen and (max-width:600px) {
@@ -482,20 +433,13 @@ fieldset {
         padding-bottom: 5px;
 
     }
-
     .nav_layout {
         width: 100%;
     }
-
     .add-info {
         line-height: 5px;
     }
-
-
 }
-
-
-
 @media screen and (max-width:400px) {
     .h1_styles {
         text-transform: uppercase;
@@ -514,7 +458,6 @@ fieldset {
         float: none;
         width: 100%;
         border-right: 1px solid grey;
-
     }
     .main-cont-h2 {
         font-size: 15px;
@@ -524,11 +467,9 @@ fieldset {
     .nav_menu {
         height: 100%;
     }
-    }
-
-    @media screen and (max-width:450px) {
+ }
+@media screen and (max-width:450px) {
         .less-than-450 {
             display: none;
-
         }
 }
