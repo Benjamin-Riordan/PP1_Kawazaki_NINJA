@@ -366,15 +366,17 @@ fieldset {
 }
 
 .submit-btn {
-    background: limegreen;
+    background: rgb(8, 8, 8);
     color: white;
-    border-style: outset;
-    border-color: limegreen;
     height: 50px;
     width: 100px;
     font: bold15px arial,
         sans-serif;
     text-shadow: none;
+}
+
+.submit-btn:hover {
+    font-size: 25px;
 }
 
 
