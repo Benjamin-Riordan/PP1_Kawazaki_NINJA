@@ -343,6 +343,48 @@ fieldset {
 .submit-btn:hover {
     font-size: 25px;
 }
+/* ***************************************************THANK YOU PAGE************************************************* */
+.parallax_1 {
+    background: url("/assets/images/para_1.jpg") no-repeat fixed center/cover;
+    min-height: 500px;
+}
+
+.parallax_2 {
+    background: url("/assets/images/para_2.jpg") no-repeat fixed center/cover;
+    min-height: 500px;
+}
+
+.parallax_3 {
+    background: url("/assets/images/para_3.jpg") no-repeat fixed center/cover;
+    min-height: 500px;
+}
+
+.parallax_4 {
+    background: url("/assets/images/para_4.jpg") no-repeat fixed center/cover;
+    min-height: 500px;
+}
+
+.parallax_5 {
+    background: url("/assets/images/para_5.jpg") no-repeat fixed center/cover;
+    min-height: 500px;
+}
+
+.parallax_btween {
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+
+.parallax_btween h1 {
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.parallax_btween p {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
 /* ***************************************************MEDIA Q************************************************* */
 @media screen and (min-width:1200px) {
     .sign-up-form-form {
