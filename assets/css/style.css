@@ -297,7 +297,7 @@ iframe {
 /* ***************************************************page 3 ************************************************* */
 /* ***************************************************sign-up area ************************************************* */
 .sign-up-form {
-    background-image: url("assets/images/night-bike.jpg");
+    background-image: url("/assets/images/night-bike.jpg");
     height: 800px;
     background-position: center;
     background-repeat: no-repeat;
