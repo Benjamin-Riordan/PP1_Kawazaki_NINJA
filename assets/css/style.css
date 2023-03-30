@@ -362,6 +362,7 @@ fieldset {
     color: white;
     height: 50px;
     width: 100px;
+    -webkit-appearance:none;
 }
 .submit-btn:hover {
     font-size: 25px;
