@@ -169,7 +169,7 @@ a:hover {
 /*****************************************************footer**************************************************/
 /* the size of the div for the main footer container */
 .footer-container {
-    height: 250px;
+    height: 400px;
     width: 100%;
     background-color: rgb(12, 12, 12);
     display: flex;
