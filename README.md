@@ -2,7 +2,7 @@
 # The kawasaki Ninja
 ---
 ## A site dedicated to teaching the user all about the difffrent ninja bikes ,The history of the Ninja and a newsletter to keep up to date.
- ### It can be viewed on multiple divces and is fully responsive -here have a look ![a view of my website on multiplle devices](assets/readme_images/amiresponsive.png)
+ ### It can be viewed on multiple divices and is fully responsive -here have a look ![a view of my website on multiplle devices](assets/readme_images/amiresponsive.png)
 
 
 ## You can take a closer look here on the live site here -[THE KAWASAKI NINJA](https://benjamin-riordan.github.io/PP1_Kawazaki_NINJA/)
@@ -118,11 +118,11 @@ The Thank you page has has a parallax effect and contains some information and a
 
 5. future implemtations 
 
-* I would like add a section where you can see the most trending bike at the moment.
+    * I would like add a section where you can see the most trending bike at the moment.
 
-* i would like to add a section where a user can upload an image of thier bike and add custome features to it.
+    * i would like to add a section where a user can upload an image of thier bike and add custome features to it.
 
-* i would like to add an accesories page and a payment system to buy merchandise
+    * i would like to add an accesories page and a payment system to buy merchandise
 
 6. Accessibility
     i wanted to create a website that everybody could use so therefore i used :
@@ -133,7 +133,7 @@ Alt attributes on  all images except for background images on the site.
 
 Any area that had an issue i added in aria lables
 
-Using [WAVE](https://wave.webaim.org/). to make sure that the site has a good contrasting color
+Using [WAVE](https://wave.webaim.org/) to make sure that the site has a good contrasting color
 
 
 _____________________________
@@ -161,3 +161,24 @@ were used for writing , saving, and pulbshing my code and for version control.
 
 
 ---
+## Testing
+
+Throught the build proceese i used google dev tools to always check how resposive my page was , and how any chnage would look , 
+
+My procees was as follows -
+
+1. Add in HTML , push to site(local) , check .if all okay i moved to css if not i went back and fixed 
+2. Add in css , push to site(local) and check if its not what i intended i would use dev tools to change it and then reflect that back in my code
+
+3. Now i would push to live site and re-check , and again if i had any issues , go back and fix.
+
+
+## Issues I ran into 
+
+1. Incorrect file paths, was my main issues during the devolopemt of this site , but a quick google helped to slove that .
+
+## Code reviews 
+
+[my first code revew video](assets/readme_images/Recording%202023-03-31%20193935.mp4)
+
+[my code review by my class mates](assets/readme_images/Recording%202%202023-03-31%20194717.mp4)
