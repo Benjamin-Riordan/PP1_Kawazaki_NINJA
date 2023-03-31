@@ -150,7 +150,7 @@ _____________________________
 * Git and Github And Gitpod.
 were used for writing , saving, and pulbshing my code and for version control.
 
-* [Balsamiq]{https://balsamiq.com/wireframes/?gclid=EAIaIQobChMIsp6W8N2G_gIV2-7tCh3nTQ4BEAAYAiAAEgLOuPD_BwE} - Used to create wireframes.
+* [Balsamiq](https://balsamiq.com/wireframes/?gclid=EAIaIQobChMIsp6W8N2G_gIV2-7tCh3nTQ4BEAAYAiAAEgLOuPD_BwE) - Used to create wireframes.
 * [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
 * [Font Awesome](https://fontawesome.com/) - For the iconography on the website.
 * [Google Dev Tools](https://developer.chrome.com/docs/devtools/) - To troubleshoot and test features, solve issues with responsiveness and styling.
