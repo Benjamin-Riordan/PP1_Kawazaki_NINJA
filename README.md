@@ -2,7 +2,7 @@
 # The kawasaki Ninja
 ---
 ## A site dedicated to teaching the user all about the difffrent ninja bikes ,The history of the Ninja and a newsletter to keep up to date.
- ### It can be viewd on multiple divces and is fully responsive -here have a look ![a view of my website on multiplle devices](assets/readme_images/amiresponsive.png)
+ ### It can be viewed on multiple divces and is fully responsive -here have a look ![a view of my website on multiplle devices](assets/readme_images/amiresponsive.png)
 
 
 ## You can take a closer look here on the live site here -[THE KAWASAKI NINJA](https://benjamin-riordan.github.io/PP1_Kawazaki_NINJA/)
@@ -37,7 +37,7 @@ The website uses a black and green colour scheme, which is consistent with the b
 ![my color scheme of black green and white](assets/readme_images/ninja%20pp1%20color%20picks.png)
 
 ### Typography
-The website uses a sans-serif font for headings and a serif font for body text, which provides a clean and professional look.
+The website uses a sans-serif font for headings and a serif font for body text, which provides a clean and professional look. this is also very close to the actual 5kawasaki font on thier webpage
 
 ### Imagery
 The website uses high-quality images of the different models of the Kawasaki NINJA -ypu can see where i got the images fromm here----add in link to image sources here
@@ -52,7 +52,7 @@ The website has four main pages, each with its own features three that are show 
 
 The Home/landing page is the first introduction it has a large hero image ![mian hero image](assets/images/green2heroalternate.jpg)
 
-give a brief guide of what to do using font awesome arrows and text![an image of the main text on the page](assets/readme_images/main%20page%20info.png)
+gives a brief guide of what to do using font awesome arrows and text![an image of the main text on the page](assets/readme_images/main%20page%20info.png)
 
 there is also bike information  section with links,![bike information](assets/readme_images/model%20information%20section.png)
 
@@ -63,12 +63,101 @@ there is also bike information  section with links,![bike information](assets/re
 
 2. History page
 
-The page 
+This page again carries the same header and footer as the home page and mostly consits of a youtube video![an image of a video](assets/readme_images/video.png) and a quote![a quote from the wesite](assets/readme_images/quote.png), the youtube video has all the controls needed fro the user to control the video and auto play is tured off.
 
 3. Newsletter/sign-up page
 
-The accessories page displays a range of accessories that can be purchased for the Kawasaki NINJA. Each item has a description, price, and an image, making it easy for users to find the accessory they are looking for. Users can click on the "Buy" button to purchase the item directly from the website.
+The Newsletter/sign-up page contains a backgrpund image and a sample news letter next to a sign up form![image of the newsletter page](assets/readme_images/newsletter.png) 
+
+The form has all atributes set to required and submitting the form brings you to thank you page
+
+``` html 
+<div class="sign-up-form-form">
+                 <form action="thank_you.html" method="get" class="form-style">
+                     <label for="first-name">First Name:</label>
+                     <input class="form-text" type="text" id="first-name" name="first-name" required>
+
+                     <label for="last-name">Last Name:</label>
+                     <input class="form-text" type="text" id="last-name" name="last-name" required>
+
+                     <label for="email">Email:</label>
+                     <input class="form-text" type="email" id="email" name="email" required>
+                     <label for="motorbike">What kind of motorbike do you ride?</label>
+                     <select id="motorbike" name="motorbike" required>
+                         <option value="">choose bike</option>
+                         <option value="kawasaki">kawasaki</option>
+                         <option value="suzuki">Suzuki</option>
+                         <option value="honda">Honda</option>
+                         <option value="yamaha">Yamaha</option>
+                     </select>
+
+                     <fieldset>
+                         <legend>Type of Newsletter You Want:</legend>
+                         <label><input type="radio" name="newsletter" value="weekly" required> Weekly</label>
+                         <label><input type="radio" name="newsletter" value="monthly" required> Monthly</label>
+                         <label><input type="radio" name="newsletter" value="special-offers" required> Special
+                             Offers</label>
+                     </fieldset>
+
+                     <label class="add-info"><input type="checkbox" name="additional-info" value="yes"> Can we send you
+                         additional information?</label>
+                     <br>
+                     <label class="add-info"><input type="checkbox" name="third-party" value="yes"> Can we send your
+                         information
+                         to our 3rd party supplier?</label>
+                     <br>
+
+                     <input class="submit-btn" type="submit" value="Submit">
+                     </form>
+                     
+```
 
 4. Thank you page
 
-The contact us page provides a form that users can fill out to send a message to the website's owner. Users can provide their name, email address, and message, and the website's owner will receive an email with the user's information.
+The Thank you page has has a parallax effect and contains some information and a thnk you note for all the people that submitted the form![an image fo the thank you page](assets/readme_images/thankyou.png)
+
+5. future implemtations 
+
+* I would like add a section where you can see the most trending bike at the moment.
+
+* i would like to add a section where a user can upload an image of thier bike and add custome features to it.
+
+* i would like to add an accesories page and a payment system to buy merchandise
+
+6. Accessibility
+    i wanted to create a website that everybody could use so therefore i used :
+
+HTML that has a proper structure 
+
+Alt attributes on  all images except for background images on the site.
+
+Any area that had an issue i added in aria lables
+
+Using [WAVE](https://wave.webaim.org/). to make sure that the site has a good contrasting color
+
+
+_____________________________
+__________________________
+_____________________________
+
+## Technolgy used 
+
+* Langauges
+    * HTML
+    * CSS
+    * JAVASCRPIT (for font awesome)
+
+* Git and Github And Gitpod.
+were used for writing , saving, and pulbshing my code and for version control.
+
+* [Balsamiq]{https://balsamiq.com/wireframes/?gclid=EAIaIQobChMIsp6W8N2G_gIV2-7tCh3nTQ4BEAAYAiAAEgLOuPD_BwE} - Used to create wireframes.
+* [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
+* [Font Awesome](https://fontawesome.com/) - For the iconography on the website.
+* [Google Dev Tools](https://developer.chrome.com/docs/devtools/) - To troubleshoot and test features, solve issues with responsiveness and styling.
+* [Tiny PNG](https://tinypng.com/) To compress images.
+* [Favicon.io](https://favicon.io/) To create favicon.
+* [Am I Responsive?](https://ui.dev/amiresponsive) To show the website image on a range of devices.
+* [Shields.io](https://shields.io/) To add badges to the README
+
+
+---
