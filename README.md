@@ -1,8 +1,8 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)![ninja logo on a bike](assets/readme_images/android-chrome-192x192.png)
-# The kawasaki Ninja
+# The Kawasaki Ninja
 ---
-## A site dedicated to teaching the user all about the difffrent ninja bikes ,The history of the Ninja and a newsletter to keep up to date.
- ### It can be viewed on multiple divices and is fully responsive -here have a look ![a view of my website on multiplle devices](assets/readme_images/amiresponsive.png)
+## A site dedicated to teaching the user all about the different ninja bikes, The history of the Ninja, and a newsletter to keep up to date.
+ ### It can be viewed on multiple devices and is fully responsive -here have a look![a view of my website on multiple devices](assets/readme_images/amiresponsive.png)
 
 
 ## You can take a closer look here on the live site here -[THE KAWASAKI NINJA](https://benjamin-riordan.github.io/PP1_Kawazaki_NINJA/)
@@ -15,7 +15,7 @@
 
 
 
-* [USER EXPEIRENCE](#USEREXPEIRENCE)
+* [USER EXPERIENCE] (#USEREXPERIENCE)
     * [Initial Discussion](#InitialDiscussion)
     * [User Stories](#UserStories)
 * [Design](#Design)
@@ -29,7 +29,7 @@
 	* [Code valadation ](#Codevaladation)
 	* [Issues I ran into ](#IssuesIraninto)
 	* [Code reviews ](#Codereviews)
-	* [Major chnages during development](#Majorchnagesduringdevelopment)
+	* [Major changes during development](#Majorchnagesduringdevelopment)
 	* [Lighthouse](#Lighthouse)
 		* [Landing page](#Landingpage)
 		* [History Page](#HistoryPage)
@@ -47,7 +47,7 @@
 
 ___
 
-# USER EXPEIRENCE
+# USER EXPERIENCE
 
 ## Initial Discussion
 The initial discussion for the website involved identifying the target audience and their needs. It was decided that the website would target individuals who are interested in purchasing a Kawasaki NINJA motorcycle or learning more about the bike.
@@ -60,7 +60,7 @@ Based on the target audience and their needs, the following user stories were id
 * As a user, I want to be able to view images and specifications for each model of the Kawasaki NINJA so that I can make an informed 
 decision.
 
-* As a user i would like to learn about the history of the ninja motorbike
+* As a user I would like to learn about the history of the ninja motorbike
 
 * As a user, I want to be able to contact the website's owner if I have any questions or concerns.
 
@@ -70,41 +70,41 @@ The website uses a black and green colour scheme, which is consistent with the b
 ![my color scheme of black green and white](assets/readme_images/ninja%20pp1%20color%20picks.png)
 
 ## Typography
-The website uses a sans-serif font for headings and a serif font for body text, which provides a clean and professional look. this is also very close to the actual 5kawasaki font on thier webpage
+The website uses a sans-serif font for headings and a serif font for body text, which provides a clean and professional look. this is also very close to the actual 5kawasaki font on their webpage
 
 ## Imagery
-The website uses high-quality images of the different models of the Kawasaki NINJA -ypu can see where i got the images fromm here----add in link to image sources here
+The website uses high-quality images of the different models of the Kawasaki NINJA -you can see where I got the images from here----add in link to image sources here
 
 ## Wireframes
 Wireframes were created to plan the layout and design of the website. The wireframes were used to guide the development process and ensure that the website met the needs of the target audience.![my original wireframe](assets/readme_images/pp1wireframe.png)
 
 ## Features
-The website has four main pages, each with its own features three that are show in the nav bar and one that is a thank you page for filling out the from.
+The website has four main pages, each with its own features three that are shown in the nav bar and one that is a thank you page for filling out the form.
 
 1. Home/landing page
 
-The Home/landing page is the first introduction it has a large hero image ![mian hero image](assets/images/green2heroalternate.jpg)
+The Home/landing page is the first introduction it has a large hero image![mian hero image](assets/images/green2heroalternate.jpg)
 
-gives a brief guide of what to do using font awesome arrows and text![an image of the main text on the page](assets/readme_images/main%20page%20info.png)
+gives a brief guide on what to do using font awesome arrows and text![an image of the main text on the page](assets/readme_images/main%20page%20info.png)
 
 there is also bike information  section with links,![bike information](assets/readme_images/model%20information%20section.png)
 
- each of these sections links exteranly to a site about that particualr bike using target  _blank
- it also has a nav bar and a footer NOTE :these are across all pages![main header](assets/readme_images/header.png)![footer with links](assets/readme_images/footer%20with%20links.png)
+ each of these sections links externally to a site about that particular bike using target  _blank
+ it also has a nav bar and a footer NOTE:these are across all pages![main header](assets/readme_images/header.png)![footer with links](assets/readme_images/footer%20with%20links.png)
 
 
 
 2. History page
 
-This page again carries the same header and footer as the home page and mostly consits of a youtube video![an image of a video](assets/readme_images/video.png) and a quote![a quote from the wesite](assets/readme_images/quote.png), the youtube video has all the controls needed fro the user to control the video and auto play is tured off.
+This page again carries the same header and footer as the home page and mostly consists of a youtube video![an image of a video](assets/readme_images/video.png) and a quote![a quote from the website](assets/readme_images/quote.png), the youtube video has all the controls needed for the user to control the video, and auto play is turned off.
 
 3. Newsletter/sign-up page
 
-The Newsletter/sign-up page contains a backgrpund image and a sample news letter next to a sign up form![image of the newsletter page](assets/readme_images/newsletter.png) 
+The Newsletter/sign-up page contains a background image and a sample newsletter next to a signup form![image of the newsletter page](assets/readme_images/newsletter.png) 
 
-The form has all atributes set to required and submitting the form brings you to thank you page
+The form has all attributes set to required and submitting the form brings you to thank you page
 
-``` html 
+``` HTML 
 <div class="sign-up-form-form">
                  <form action="thank_you.html" method="get" class="form-style">
                      <label for="first-name">First Name:</label>
@@ -147,24 +147,24 @@ The form has all atributes set to required and submitting the form brings you to
 
 4. Thank you page
 
-The Thank you page has has a parallax effect and contains some information and a thnk you note for all the people that submitted the form![an image fo the thank you page](assets/readme_images/thankyou.png)
+The Thank you page has a parallax effect and contains some information and a thank you note for all the people that submitted the form![an image for the thank you page](assets/readme_images/thankyou.png)
 
-5. future implemtations 
+5. future implementations 
 
-    * I would like add a section where you can see the most trending bike at the moment.
+    * I would like to add a section where you can see the most trending bike at the moment.
 
-    * i would like to add a section where a user can upload an image of thier bike and add custome features to it.
+    * I would like to add a section where a user can upload an image of their bike and add custom features to it.
 
-    * i would like to add an accesories page and a payment system to buy merchandise
+    * I would like to add an accessories page and a payment system to buy merchandise
 
 6. Accessibility
-    i wanted to create a website that everybody could use so therefore i used :
+    I wanted to create a website that everybody could use so, therefore, I used :
 
 HTML that has a proper structure 
 
-Alt attributes on  all images except for background images on the site.
+Alt attributes on all images except for background images on the site.
 
-Any area that had an issue i added in aria lables
+Any area that had an issue I added in aria labels
 
 Using [WAVE](https://wave.webaim.org/) to make sure that the site has a good contrasting color
 
@@ -175,18 +175,18 @@ _____________________________
 
 ## Technolgy used 
 
-* Langauges
+* Languages
     * HTML
     * CSS
-    * JAVASCRPIT (for font awesome)
+    * JAVASCRIPT (for font awesome)
 
 * Git and Github And Gitpod.
-were used for writing , saving, and pulbshing my code and for version control.
+were used for writing, saving, and publishing my code and for version control.
 
 * [Balsamiq](https://balsamiq.com/wireframes/?gclid=EAIaIQobChMIsp6W8N2G_gIV2-7tCh3nTQ4BEAAYAiAAEgLOuPD_BwE) - Used to create wireframes.
 * [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
 * [Font Awesome](https://fontawesome.com/) - For the iconography on the website.
-* [Google Dev Tools](https://developer.chrome.com/docs/devtools/) - To troubleshoot and test features, solve issues with responsiveness and styling.
+* [Google Dev Tools](https://developer.chrome.com/docs/devtools/) - To troubleshoot and test features, and solve issues with responsiveness and styling.
 * [Tiny PNG](https://tinypng.com/) To compress images.
 * [Favicon.io](https://favicon.io/) To create favicon.
 * [Am I Responsive?](https://ui.dev/amiresponsive) To show the website image on a range of devices.
@@ -197,18 +197,18 @@ were used for writing , saving, and pulbshing my code and for version control.
 ---
 # Testing
 
-Throught the build proceese i used google dev tools to always check how resposive my page was , and how any chnage would look
+Throughout the build process i used google dev tools to always check how responsive my page was, and how any change would look
 
-My procees was as follows -
+My process was as follows -
 
-1. Add in HTML , push to site(local) , check .if all okay i moved to css if not i went back and fixed 
-2. Add in css , push to site(local) and check if its not what i intended i would use dev tools to change it and then reflect that back in my code
+1. Add in HTML, push to the site(local) , and check.if all is okay i moved to CSS if not I went back and fixed 
+2. Add in CSS, push to the site(local), and check if it's not what I intended I would use dev tools to change it and then reflect that back in my code
 
-3. Now i would push to live site and re-check , and again if i had any issues , go back and fix.
+3. Now I would push to the live site and re-check, and again if I had any issues, go back and fix them.
 
 
 
-## Code valadation 
+## Code validation 
 
 <p>
     <a href="http://jigsaw.w3.org/css-validator/check/referer">
@@ -218,18 +218,18 @@ My procees was as follows -
     </a>
 </p>
 
-all the html has passed as well ,I cant find the image for it.
+all the HTML has passed as well,I can't find the image for it.
 
 
 ## Issues I ran into 
 
-1. Incorrect file paths, was my main issues during the devolopemt of this site , but a quick google helped to slove that .
+1. Incorrect file paths, were my main issues during the development of this site, but a quick google helped to slove that.
 
-2. images file sizes were to large and was making my proformace drop in the lighthouse test, i coorected this but using TINY png and re-uploading all the files
+2. images file sizes were too large and were making my performance drop in the lighthouse test, i corrected this but using TINY png and re-uploading all the files
 
 
 
-3. getting the image to be repsosive 
+3. getting the image to be responsive 
 
 
 .hero_image_outer {
@@ -251,7 +251,7 @@ all the html has passed as well ,I cant find the image for it.
     height: 100%;
     overflow: hidden;}
 .hero_image_inner {
-    height: 100%;-----------------this was my fix and main issue
+    height: 100%;-----------------this was my fix and the main issue
     width: 100%;
     background: url....}
     
@@ -259,7 +259,7 @@ all the html has passed as well ,I cant find the image for it.
 
  4. Nav bar issues  
 
-I had an issues where the outer most point of my nav bar on the left hand side didnt fill the whole bar 
+I had an issue where the outermost point of my nav bar on the left-hand side didn't fill the whole bar 
 reasons 
 
 code issues 
@@ -267,13 +267,13 @@ code issues
 none that i could spot,
 
 
-resoltion
-i asked in slack for assitance and was reccomnede to look at box-sizing- border box  and to make my elemets have a wisth of 33.33% instaed of 33%
-and to mkae the border be contained inside the sizing using the above 
+resolution
+I asked in slack for assistance and was told to look at box-sizing- border-box  and to make my elements have a width of 33.33% instead of 33%
+and to make the border be contained inside the sizing using the above 
 
 --------problem code---------
 
-/* over all removal of margins,padding and border */
+/* overall removal of margins, padding and border */
 
  {
 
@@ -308,7 +308,7 @@ line-height: 20px;
 
 ----solution code---
 
-/* over all removal of margins,padding and border */
+/* overall removal of margins, padding and border */
  {
 margin: 0px;
 
@@ -342,15 +342,15 @@ line-height: 20px;
 
 ## Code reviews 
 
-I submitted for a few code revies and got amamzing feedback that I implented to imporve overall site
+I submitted a few code reviews and got amazing feedback that I implemented to improve overall site
 
-## Major chnages during development
+## Major changes during development
 
-for the start of my project I was using green and white text which turns out is a contrst isuues, so i switch back to white on black for better contrast
+for the start of my project I was using green and white text which turns out is a contrast issue, so I switch back to white on black for better contrast
 
 ## Lighthouse 
 
-Using devtools in google chrome on an incognito page I ran lighthouse on each page , 
+Using dev tools in google chrome on an incognito page I ran lighthouse on each page, 
 
 here are the results
 
@@ -375,13 +375,13 @@ All the links are set to TARGET_BLANK
 
 links work as Intended
 
-Phone and mail to links are still causing issues on ios devices , I have looked into this issue and I cant find the issues
+Phone and mail to links are still causing issues on ios devices, I have looked into this issue and I can't find the issues
 
 # Crediations and citataions
 
 ## Images 
 
-* the majority of my images were taken from google or upsplash 
+* the majority of my images were taken from google or Unsplash 
 
     * Photo by <a href="https://unsplash.com/@nevergg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">力力摄影日记</a> on <a href="https://unsplash.com/s/photos/kawasaki?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>ninja 400 green 
   
