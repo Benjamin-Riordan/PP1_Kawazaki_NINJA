@@ -11,15 +11,18 @@
 
 ---
 ---
-## CONTENTS
+# CONTENTS
+
+    * 
 
 ___
-## USER EXPEIRENCE
 
-### Initial Discussion
+# USER EXPEIRENCE
+
+## Initial Discussion
 The initial discussion for the website involved identifying the target audience and their needs. It was decided that the website would target individuals who are interested in purchasing a Kawasaki NINJA motorcycle or learning more about the bike.
 
-### User Stories
+## User Stories
 Based on the target audience and their needs, the following user stories were identified:
 
 * As a user, I want to learn about the different models of the Kawasaki NINJA so that I can choose the right bike for me.
@@ -31,21 +34,21 @@ decision.
 
 * As a user, I want to be able to contact the website's owner if I have any questions or concerns.
 
-### Design
-Colour Scheme
+## Design
+ ### Colour Scheme
 The website uses a black and green colour scheme, which is consistent with the branding of the Kawasaki NINJA.
 ![my color scheme of black green and white](assets/readme_images/ninja%20pp1%20color%20picks.png)
 
-### Typography
+## Typography
 The website uses a sans-serif font for headings and a serif font for body text, which provides a clean and professional look. this is also very close to the actual 5kawasaki font on thier webpage
 
-### Imagery
+## Imagery
 The website uses high-quality images of the different models of the Kawasaki NINJA -ypu can see where i got the images fromm here----add in link to image sources here
 
-### Wireframes
+## Wireframes
 Wireframes were created to plan the layout and design of the website. The wireframes were used to guide the development process and ensure that the website met the needs of the target audience.![my original wireframe](assets/readme_images/pp1wireframe.png)
 
-### Features
+## Features
 The website has four main pages, each with its own features three that are show in the nav bar and one that is a thank you page for filling out the from.
 
 1. Home/landing page
@@ -158,12 +161,13 @@ were used for writing , saving, and pulbshing my code and for version control.
 * [Favicon.io](https://favicon.io/) To create favicon.
 * [Am I Responsive?](https://ui.dev/amiresponsive) To show the website image on a range of devices.
 * [Shields.io](https://shields.io/) To add badges to the README
+* [Remove.bg](https://www.remove.bg/) to remove background from images
 
 
 ---
-## Testing
+# Testing
 
-Throught the build proceese i used google dev tools to always check how resposive my page was , and how any chnage would look , 
+Throught the build proceese i used google dev tools to always check how resposive my page was , and how any chnage would look
 
 My procees was as follows -
 
@@ -177,8 +181,212 @@ My procees was as follows -
 
 1. Incorrect file paths, was my main issues during the devolopemt of this site , but a quick google helped to slove that .
 
+2. images file sizes were to large and was making my proformace drop in the lighthouse test, i coorected this but using TINY png and re-uploading all the files
+
+
+
+3. getting the image to be repsosive 
+
+
+.hero_image_outer {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero_image_inner {
+    height: 600px;
+    width: 100%;
+    background: url....
+}
+
+   
+.hero_image_outer {
+ width: 100%;
+    height: 100%;
+    overflow: hidden;}
+.hero_image_inner {
+    height: 100%;-----------------this was my fix and main issue
+    width: 100%;
+    background: url....}
+    
+-----------------------------------------------------------
+
+ 4. Nav bar issues  
+
+I had an issues where the outer most point of my nav bar on the left hand side didnt fill the whole bar 
+reasons 
+
+code issues 
+
+none that i could spot,
+
+
+resoltion
+i asked in slack for assitance and was reccomnede to look at box-sizing- border box  and to make my elemets have a wisth of 33.33% instaed of 33%
+and to mkae the border be contained inside the sizing using the above 
+
+--------problem code---------
+
+/* over all removal of margins,padding and border */
+
+ {
+
+margin: 0px;
+
+padding: 0px;
+
+border: 0px;
+
+    
+}
+
+.nav_layout li {
+
+width: 33%;
+
+float: left;
+
+list-style: none;
+
+text-align: center;
+
+padding-top: 2px;
+
+border-left: 1px solid grey;
+
+line-height: 20px;
+
+}
+
+
+
+----solution code---
+
+/* over all removal of margins,padding and border */
+ {
+margin: 0px;
+
+padding: 0px;
+
+border: 0px;
+
+box-sizing: border-box;
+
+}
+
+.nav_layout li {
+
+width: 33.33%;
+
+float: left;
+
+list-style: none;
+
+text-align: center;
+
+padding-top: 2px;
+
+border-left: 1px solid grey;
+
+line-height: 20px;
+
+}
+
+
+
 ## Code reviews 
 
-[my first code revew video](assets/readme_images/Recording%202023-03-31%20193935.mp4)
+I submitted for a few code revies and got amamzing feedback that I implented to imporve overall site
 
-[my code review by my class mates](assets/readme_images/Recording%202%202023-03-31%20194717.mp4)
+## Major chnages during development
+
+for the start of my project I was using green and white text which turns out is a contrst isuues, so i switch back to white on black for better contrast
+
+## Lighthouse 
+
+Using devtools in google chrome on an incognito page I ran lighthouse on each page , 
+
+here are the results
+
+1. ### Landing page
+![Alt text](assets/readme_images/lighthouse%201.png)
+
+
+2. ### History Page
+![Alt text](assets/readme_images/lighthouse%202.png)
+
+
+3. ### Newsletter
+![Alt text](assets/readme_images/lighthouse%203.png)
+
+ 4. ### Thank you page 
+ ![Alt text](assets/readme_images/lighthouse%204.png)
+
+
+## Links
+
+All the links are set to TARGET_BLANK 
+
+links work as Intended
+
+Phone and mail to links are still causing issues on ios devices , I have looked into this issue and I cant find the issues
+
+# Crediations and citataions
+
+## Images 
+
+* the majority of my images were taken from google or upsplash 
+
+    * Photo by <a href="https://unsplash.com/@nevergg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">力力摄影日记</a> on <a href="https://unsplash.com/s/photos/kawasaki?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>ninja 400 green 
+  
+
+
+    * Photo by <a href="https://unsplash.com/@andyluismdo96?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andy Montes de Oca</a> on <a href="https://unsplash.com/s/photos/kawasaki?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> ninja black
+
+
+    * Photo by <a href="https://unsplash.com/@pokmer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jingming Pan</a> on <a href="https://unsplash.com/s/photos/kawasaki?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>man in tshirt on balck ninja
+
+
+
+
+    * Photo by <a href="https://unsplash.com/@masakaze?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Masakaze Kawakami</a> on <a href="https://unsplash.com/s/photos/kawasaki?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  white and green ninja
+
+
+    * Photo by <a href="https://unsplash.com/es/@timaesthetic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tim Rüßmann</a> on <a href="https://unsplash.com/s/photos/kawasaki-ninja?orientation=landscape&utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+
+    * Photo by Hasan Gulec: https://www.pexels.com/photo/green-motorbikes-parked-near-water-11059022/
+
+
+    * Photo by Sourav Mishra: https://www.pexels.com/photo/city-road-street-car-15170432/  
+
+
+* i used a bg removal tool for the main content images
+
+## Video
+
+
+Yammie Noob
+1.19M subscribers
+https://www.youtube.com/watch?v=1IFt4o3Azdg
+
+
+
+### Code used 
+
+The only oustside code i used was the parallax code and i took that from W3 schools and then customized it
+
+## Content 
+ The content is from google and the kawasaki webpage
+
+## Acknowledgments
+I would like to thank my mentor(okwudiri_mentor
+)  , my class and alan my cohort facilatator for help with this project along with a few extra people Tom(
+Tom_Alumnus_Lead) and Daisy (Daisy_mentor)
+
+
+
+# Thank you !
