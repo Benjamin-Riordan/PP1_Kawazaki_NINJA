@@ -180,6 +180,16 @@ My procees was as follows -
 
 ## Code valadation 
 
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
+all the html has passed as well ,I cant find the image for it.
+
 
 ## Issues I ran into 
 
