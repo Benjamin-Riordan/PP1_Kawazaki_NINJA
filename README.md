@@ -36,6 +36,7 @@
 		* [Newsletter](#Newsletter)
 		* [Thank you page](#Thankyoupage)
 	* [Links](#Links)
+    * [Deployment](#Deployment)
 * [Crediations and citataions](#Crediationsandcitataions)
 	* [Images ](#Images)
 	* [Video](#Video)
@@ -377,6 +378,11 @@ links work as Intended
 
 Phone and mail to links are still causing issues on ios devices, I have looked into this issue and I can't find the issues
 
+
+
+## Deployment
+
+I deployed the live site usuing github pages 
 # Crediations and citataions
 
 ## Images 
