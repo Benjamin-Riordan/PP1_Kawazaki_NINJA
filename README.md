@@ -13,7 +13,7 @@
 ---
 # CONTENTS
 
-    * 
+    
 
 ___
 
@@ -175,6 +175,10 @@ My procees was as follows -
 2. Add in css , push to site(local) and check if its not what i intended i would use dev tools to change it and then reflect that back in my code
 
 3. Now i would push to live site and re-check , and again if i had any issues , go back and fix.
+
+
+
+## Code valadation 
 
 
 ## Issues I ran into 
