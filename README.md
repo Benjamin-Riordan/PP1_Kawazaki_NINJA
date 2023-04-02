@@ -15,7 +15,7 @@
 
 
 
-* [USER EXPERIENCE] (#USEREXPERIENCE)
+* [USER EXPERIENCE](#USEREXPERIENCE)
     * [Initial Discussion](#InitialDiscussion)
     * [User Stories](#UserStories)
 * [Design](#Design)
