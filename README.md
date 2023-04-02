@@ -13,6 +13,36 @@
 ---
 # CONTENTS
 
+
+
+* [USER EXPEIRENCE](#USEREXPEIRENCE)
+    * [Initial Discussion](#InitialDiscussion)
+    * [User Stories](#UserStories)
+* [Design](#Design)
+	* [Colour Scheme](#ColourScheme)
+	* [Typography](#Typography)
+	* [Imagery](#Imagery)
+	* [Wireframes](#Wireframes)
+* [Features](#Features)
+* [Technolgy used ](#Technolgyused)
+* [Testing](#Testing)
+	* [Code valadation ](#Codevaladation)
+	* [Issues I ran into ](#IssuesIraninto)
+	* [Code reviews ](#Codereviews)
+	* [Major chnages during development](#Majorchnagesduringdevelopment)
+	* [Lighthouse](#Lighthouse)
+		* [Landing page](#Landingpage)
+		* [History Page](#HistoryPage)
+		* [Newsletter](#Newsletter)
+		* [Thank you page](#Thankyoupage)
+	* [Links](#Links)
+* [Crediations and citataions](#Crediationsandcitataions)
+	* [Images ](#Images)
+	* [Video](#Video)
+	* [Code used ](#Codeused)
+* [Acknowledgments](#Acknowledgments)
+* [Thank you !](#Thankyou!)
+
     
 
 ___
