@@ -91,13 +91,13 @@ gives a brief guide on what to do using font awesome arrows and text![an image o
 there is also bike information  section with links,![bike information](assets/readme_images/model%20information%20section.png)
 
  each of these sections links externally to a site about that particular bike using target  _blank
- it also has a nav bar and a footer NOTE:these are across all pages![main header](assets/readme_images/header.png)![footer with links](assets/readme_images/footer%20with%20links.png)
+ it also has a nav bar and a footer NOTE: these are across all pages![main header](assets/readme_images/header.png)![footer with links](assets/readme_images/footer%20with%20links.png)
 
 
 
 2. History page
 
-This page again carries the same header and footer as the home page and mostly consists of a youtube video![an image of a video](assets/readme_images/video.png) and a quote![a quote from the website](assets/readme_images/quote.png), the youtube video has all the controls needed for the user to control the video, and auto play is turned off.
+This page again carries the same header and footer as the home page and mostly consists of a youtube video![an image of a video](assets/readme_images/video.png) and a quote![a quote from the website](assets/readme_images/quote.png), the youtube video has all the controls needed for the user to control the video, and autoplay is turned off.
 
 3. Newsletter/sign-up page
 
@@ -165,7 +165,7 @@ HTML that has a proper structure
 
 Alt attributes on all images except for background images on the site.
 
-Any area that had an issue I added in aria labels
+For any area that had an issue added in aria labels
 
 Using [WAVE](https://wave.webaim.org/) to make sure that the site has a good contrasting color
 
@@ -198,7 +198,7 @@ were used for writing, saving, and publishing my code and for version control.
 ---
 # Testing
 
-Throughout the build process i used google dev tools to always check how responsive my page was, and how any change would look
+Throughout the build process, i used google dev tools to always check how responsive my page was, and how any change would look
 
 My process was as follows -
 
@@ -224,7 +224,7 @@ all the HTML has passed as well,I can't find the image for it.
 
 ## Issues I ran into 
 
-1. Incorrect file paths, were my main issues during the development of this site, but a quick google helped to slove that.
+1. Incorrect file paths, were my main issues during the development of this site, but a quick google helped to solve that.
 
 2. images file sizes were too large and were making my performance drop in the lighthouse test, i corrected this but using TINY png and re-uploading all the files
 
@@ -271,7 +271,7 @@ none that i could spot,
 
 
 resolution
-I asked in slack for assistance and was told to look at box-sizing- border-box  and to make my elements have a width of 33.33% instead of 33%
+I asked in Slack for assistance and was told to look at box-sizing- border-box  and to make my elements have a width of 33.33% instead of 33%
 and to make the border be contained inside the sizing using the above 
 
 --------problem code---------
@@ -345,7 +345,7 @@ line-height: 20px;
 
 ## Code reviews 
 
-I submitted a few code reviews and got amazing feedback that I implemented to improve overall site
+I submitted a few code reviews and got amazing feedback that I implemented to improve the overall site
 
 ## Major changes during development
 
@@ -387,7 +387,7 @@ First, you need to have a GitHub account and a repo where your website code is s
 
 Next, you need to choose a hosting service to deploy your website. I have used use GitHub Pages, which is a free hosting service provided by GitHub.
 
-Go to your repository's settings find GitHub Pages  Choose the branch you want to use for deployment (usually the main or master branch) and the root directory of your website.
+Go to your repository's settings and find GitHub Pages  Choose the branch you want to use for deployment (usually the main or master branch) and the root directory of your website.
 
 Once you've selected your branch and root directory, click "Save" to deploy your website. GitHub will generate a URL where your website will be hosted (usually in the format username.github.io/repository-name).
 
@@ -398,7 +398,7 @@ Finally, check that your website is deployed and accessible by visiting the URL 
 
 ## Images 
 
-* the majority of my images were taken from google or Unsplash 
+* the majority of my images were taken from Google or Unsplash 
 
     * Photo by <a href="https://unsplash.com/@nevergg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">力力摄影日记</a> on <a href="https://unsplash.com/s/photos/kawasaki?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>ninja 400 green 
   
