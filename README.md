@@ -385,9 +385,9 @@ Phone and mail to links are still causing issues on ios devices, I have looked i
 ## Deployment
 First, you need to have a GitHub account and a repo where your website code is stored. 
 
-Next, you need to choose a hosting service to deploy your website. we'll use GitHub Pages, which is a free hosting service provided by GitHub.
+Next, you need to choose a hosting service to deploy your website. I have used use GitHub Pages, which is a free hosting service provided by GitHub.
 
-Go to your repository's settings and scroll down to the "GitHub Pages" section. Choose the branch you want to use for deployment (usually the main or master branch) and the root directory of your website.
+Go to your repository's settings find GitHub Pages  Choose the branch you want to use for deployment (usually the main or master branch) and the root directory of your website.
 
 Once you've selected your branch and root directory, click "Save" to deploy your website. GitHub will generate a URL where your website will be hosted (usually in the format username.github.io/repository-name).
 
