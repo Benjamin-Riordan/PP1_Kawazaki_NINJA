@@ -143,8 +143,12 @@ a:hover {
     flex-direction: column;
 }
 .bike-info ul {
-    list-style-type: none;
+    list-style-type:disc;
+    padding-left: 25px;
+    margin-right: 25px;
 }
+
+
 .main_cont_a_link {
     border: 5px solid black;
     text-align: center;
