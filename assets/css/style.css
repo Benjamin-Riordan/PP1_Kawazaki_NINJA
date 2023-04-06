@@ -145,6 +145,14 @@ a:hover {
 .bike-info ul {
     list-style-type: none;
 }
+.main_cont_a_link {
+    border: 5px solid black;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
 /* this is the centerd heading for the bike name */
 .bike_name {
     display: inline;
@@ -224,6 +232,7 @@ a:hover {
     list-style-type: none;
     text-align: center;
 }
+/*****************************************************Font awesome**************************************************/
 .font-awesome-social {
     font-family: 'Font Awesome 6 Free';
     margin: 15px;
