@@ -232,7 +232,7 @@ all the HTML has passed as well,I can't find the image for it.
 
 3. getting the image to be responsive 
 
-
+``` css
 .hero_image_outer {
     width: 100%;
     height: 600px;
@@ -245,16 +245,18 @@ all the HTML has passed as well,I can't find the image for it.
     width: 100%;
     background: url....
 }
-
-   
+```
+  ``` css
 .hero_image_outer {
  width: 100%;
     height: 100%;
     overflow: hidden;}
 .hero_image_inner {
-    height: 100%;-----------------this was my fix and the main issue
+    height: 100%;    /* this was my fix and the main issue */
     width: 100%;
     background: url....}
+
+```
     
 -----------------------------------------------------------
 
@@ -273,7 +275,7 @@ I asked in slack for assistance and was told to look at box-sizing- border-box  
 and to make the border be contained inside the sizing using the above 
 
 --------problem code---------
-
+``` css
 /* overall removal of margins, padding and border */
 
  {
@@ -305,10 +307,10 @@ line-height: 20px;
 
 }
 
-
+```
 
 ----solution code---
-
+```css
 /* overall removal of margins, padding and border */
  {
 margin: 0px;
@@ -339,7 +341,7 @@ line-height: 20px;
 
 }
 
-
+```
 
 ## Code reviews 
 
@@ -434,7 +436,7 @@ https://www.youtube.com/watch?v=1IFt4o3Azdg
 
 
 
-### Code used 
+## Code used 
 
  The oustside code i used was the parallax code and i took that from W3 schools and then customized it
  and font-awesome for footer icons and main cont cions
